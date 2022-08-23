@@ -1,0 +1,104 @@
+
+/* CSS Default */
+* {
+    margin: 0px;
+    padding: 0px;
+  }  
+  html, body {
+    /* min-width: 100%; */
+    /* min-height: 100vh; */
+    font-family: Merriweather;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: lightgrey;
+  }
+  .page {
+    width: 900px;
+    margin: 20px auto;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    font-weight: 400;
+  }
+/* CSS */
+.page {
+    background-color: #6495ed;
+}
+.title {
+    background-color: lightgrey;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+.container {
+    height: 70vh;
+    font-size: 1.2rem;
+}
+.tabContainer {
+    display: flex;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    text-align: center;
+}
+
+.colorTab {
+    height: 100%;
+    width: 33.3vw;
+    text-align: center;
+    padding: 10px 0px;
+}
+.colorTab:hover {
+    cursor: pointer;
+    }
+.tabContainer .colorTab:nth-of-type(1) {
+    background-color: #6495ed;
+}
+.tabContainer .colorTab:nth-of-type(2) {
+    background-color: #90ee90;
+}
+.tabContainer .colorTab:nth-of-type(3) {
+    background-color: #db7093;
+}
+.todoListContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.todoListContainer p {
+    width: 45%;
+    margin: 5px auto;
+    /*background-color: lightgrey;*/
+}
+/*.todoListContainer p:nth-child(even) {
+    background-color: #f2f2f2;
+}*/
+.scrollBtns {
+    height: 10vh;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-button {
+width: 42%;
+margin: auto;
+padding: 10px;
+border: 1px solid grey;
+background-color: #edbc64;
+text-align: center;
+color: white;
+}
+.nav-button:hover {
+cursor: pointer;
+}
+.nav-indicator {
+width: 100%;
+margin-left: auto;
+text-align: center;
+font-size: 1.2rem;
+padding: 20px 0px;
+}
+.todoContainer {
+    display: none;
+    }
+.todoActive {
+    display: block;
+}
